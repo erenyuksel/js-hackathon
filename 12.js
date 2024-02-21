@@ -1,4 +1,4 @@
-function countWords(string) {
+function wordCount(string) {
 
     const words = string.split(" ");
 
