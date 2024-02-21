@@ -6,7 +6,7 @@ function fakeNews(obj) {
     let fakeNewsCount = 0;
     for (let i = 0; i < obj.length; i++) {
        if (obj[i] === false) {
-          counter++;
+          fakeNewsCount++;
        }
     }
     console.log("Number of fake news:", fakeNewsCount)
